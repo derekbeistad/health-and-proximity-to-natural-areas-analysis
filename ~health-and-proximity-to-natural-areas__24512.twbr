@@ -4369,7 +4369,7 @@
             <zone h='3423' id='3' type-v2='title' w='98426' x='787' y='830' />
             <zone fixed-size='88' h='9129' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='4253' />
             <zone h='85788' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='13382'>
-              <flipboard active-id='8' nav-type='caption' show-nav-arrows='true'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
                   <story-point caption='Introduction' captured-sheet='Intro' id='1' />
                   <story-point caption='The Data' captured-sheet='Data Info' id='8' />
@@ -5256,12 +5256,12 @@
       <active id='-1' />
       <simple-id uuid='{BBA841A3-2F79-400B-9CC7-1DB07CD587F2}' />
     </window>
-    <window class='dashboard' name='references'>
+    <window class='dashboard' maximized='true' name='references'>
       <viewpoints />
-      <active id='-1' />
+      <active id='12' />
       <simple-id uuid='{98852B3A-4E2C-4B07-B6DC-10DAA2E2EC22}' />
     </window>
-    <window class='dashboard' maximized='true' name='Health and Proximity to Natural Areas'>
+    <window class='dashboard' name='Health and Proximity to Natural Areas'>
       <viewpoints />
       <active id='-1' />
       <simple-id uuid='{50BBB4DF-4935-41BD-819A-2C067B666F52}' />
