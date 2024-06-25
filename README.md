@@ -65,7 +65,7 @@ https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-Place
 # Methods
 [(Back to top)](#table-of-contents)
     <details>
-    <summary><b>Health Data Summary</b></summary>
+    <summary><b>Health Data Hurdles</b></summary>
     <br/>
 Finding a dataset with health data tied to specific geolocations was difficult. I eventually cam across the PLACES dataset from the CDC. This provides data for 36 different measures of health broken down by location. I then decided to focus the research on 8 of the 36 measures
 
@@ -77,6 +77,12 @@ Finding a dataset with health data tied to specific geolocations was difficult. 
 - Diabetes
 - Depression
 - Lack of Health Insurance
+    
+    </details>
+    
+<details>
+<summary><b>Distance to Nearest Park Hurdles</b></summary>
+<br/>
 
 Once I had the datasets loaded and cleaned, I shifted my focus on calculating the minimum distance from each location to the nearest park. After some exploration and research, I landed on a method I developed using nested iterations and reprojecting the geometry into a different Coordinate Reference System (CRS) in order to get accurate distances in meters. 
 
@@ -93,18 +99,24 @@ Distance Groups:
 Now we see an even distribution between close, medium, and far health points.
 ![Distance Group Counts screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/distance-group-counts.jpg?raw=true)
 
-Now when we calculate the health values within these groups, we can more accurately compare the reults to each group without the worry of sample size variance between them.
+Now when we calculate the health values within these groups, we can more accurately compare the results to each group without the worry of sample size variance between them.
+    
+Here is a map showing both the health points and park locations. The Health points are color coded to inducate if they are located "close", "medium", or "far" from the closest park to them.
+![Health and Parks Map](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/health-parks-map.jpg?raw=true)    
+    
     </details>
 
 # Conclusions
 [(Back to top)](#table-of-contents)
+    <details>
+    <summary><b>Health Measure by Distance to Parks</b></summary>
+    <br/>
 
-
-
+    </details>
 # Link to Dashboard
 [(Back to top)](#table-of-contents)
 
-https://public.tableau.com/views/health-and-proximity-to-natural-areas/HealthandProximitytoNaturalAreas?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
+## https://public.tableau.com/views/health-and-proximity-to-natural-areas/HealthandProximitytoNaturalAreas?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
 # Resouorces
 [(Back to top)](#table-of-contents)
