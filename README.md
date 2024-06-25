@@ -102,7 +102,9 @@ Now we see an even distribution between close, medium, and far health points.
 Now when we calculate the health values within these groups, we can more accurately compare the results to each group without the worry of sample size variance between them.
     
 Here is a map showing both the health points and park locations. The Health points are color coded to inducate if they are located "close", "medium", or "far" from the closest park to them.
-![Health and Parks Map](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/health-parks-map.jpg?raw=true)    
+![Health and Parks Map](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/health-parks-map.jpg?raw=true)
+    
+[Interactive Folium Map](https://derekbeistad.github.io/Health-and-Proximity-to-Parks-Map/tn_parks.html)
     
 </details>
 
@@ -154,6 +156,7 @@ Moderate-Intensity Activities Include:
 [(Back to top)](#table-of-contents)
 
 # [Dashboard](https://public.tableau.com/views/health-and-proximity-to-natural-areas/HealthandProximitytoNaturalAreas?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
+## [Interactive Map](https://derekbeistad.github.io/Health-and-Proximity-to-Parks-Map/tn_parks.html)
 
 # Resouorces
 [(Back to top)](#table-of-contents)
