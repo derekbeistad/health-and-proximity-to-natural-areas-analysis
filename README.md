@@ -153,7 +153,7 @@ Moderate-Intensity Activities Include:
 # Link to Dashboard
 [(Back to top)](#table-of-contents)
 
-## [Dashboard](https://public.tableau.com/views/health-and-proximity-to-natural-areas/HealthandProximitytoNaturalAreas?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
+# [Dashboard](https://public.tableau.com/views/health-and-proximity-to-natural-areas/HealthandProximitytoNaturalAreas?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
 # Resouorces
 [(Back to top)](#table-of-contents)
