@@ -104,7 +104,7 @@ Now when we calculate the health values within these groups, we can more accurat
 Here is a map showing both the health points and park locations. The Health points are color coded to inducate if they are located "close", "medium", or "far" from the closest park to them.
 ![Health and Parks Map](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/health-parks-map.jpg?raw=true)    
     
-    </details>
+</details>
 
 # Conclusions
 [(Back to top)](#table-of-contents)
