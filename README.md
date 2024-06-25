@@ -40,16 +40,24 @@ Staying active is a crucial part of a healthy lifestyle. According to the Americ
 ## USA Parks
 ### From ArcGIS - updated 2023 December 27
 https://www.arcgis.com/home/item.html?id=578968f975774d3fab79fe56c8c90941
+<details>
+    <summary><b>Parks Data Summary</b></summary>
+<br/>
 - Gathered the park boundaries for parks, gardens, and forests at national, state, county, regional, and local levels
 - 722 natural areas in or bordering Tennessee
 ![Parks Map screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/parks-map.jpg?raw=true)
 ![Num of Parks by Type screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/parks-by-type.jpg?raw=true)
+</details>
 ## Health Data
 ### From CDC - updated 2023 August 25
 https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-Place-Data-202/eav7-hnsx/about_data
-- Gatheres health data for 429 different locations throughout Tennessee
+<details>
+    <summary><b>Health Data Summary</b></summary>
+<br/>
+- Health data for 429 different locations throughout Tennessee
 - Health data is for adults aged 18 and older.
 ![Health Data Map screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/health-data-map.jpg?raw=true)
+</details>
 
 # Hurdles
 [(Back to top)](#table-of-contents)

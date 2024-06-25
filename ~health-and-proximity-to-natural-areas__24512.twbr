@@ -2725,8 +2725,8 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.15xc9mg02siu4f1fcppin12lt1a2].[Longitude (generated)]' field-type='quantitative' max='-8734376.5609013233' min='-10267169.054111101' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.15xc9mg02siu4f1fcppin12lt1a2].[Latitude (generated)]' field-type='quantitative' max='5068657.9025360513' min='3537843.2042055335' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.15xc9mg02siu4f1fcppin12lt1a2].[Longitude (generated)]' field-type='quantitative' max='-8800806.4910801407' min='-10167318.591041548' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.15xc9mg02siu4f1fcppin12lt1a2].[Latitude (generated)]' field-type='quantitative' max='4955138.4536666609' min='4041770.2511061211' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='header'>
             <format attr='background-color' value='#00000000' />
@@ -2816,6 +2816,7 @@
               <breakdown value='auto' />
             </view>
             <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
             <encodings>
               <lod column='[federated.1ee0c4101dzt5w1di2cto1dbtvs8].[clct:Geometry:nk]' />
               <geometry column='[federated.1ee0c4101dzt5w1di2cto1dbtvs8].[clct:Geometry:nk]' />
@@ -2829,6 +2830,7 @@
                 <format attr='mark-transparency' value='255' />
                 <format attr='has-stroke' value='true' />
                 <format attr='stroke-color' value='#282b28' />
+                <format attr='size' value='0.84558010101318359' />
               </style-rule>
             </style>
           </_.fcp.LayersPerPaneSpecPrimaryDS.true...pane>
@@ -2845,7 +2847,7 @@
             </encodings>
             <style>
               <style-rule element='mark'>
-                <format attr='size' value='2.2872927188873291' />
+                <format attr='size' value='1.7251380681991577' />
                 <format attr='has-stroke' value='true' />
                 <format attr='stroke-color' value='#282b28' />
               </style-rule>
