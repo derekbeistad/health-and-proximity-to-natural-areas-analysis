@@ -17,11 +17,11 @@
 
 # Motivation
 [(Back to top)](#table-of-contents)
-#### Does one's proximity to the outdoors affect their overall health?
+### Does one's proximity to the outdoors affect their overall health?
 <details>
-   <summary>Investigate the relationship between living close to parks and someone's health</summary>
+<summary>Investigate the relationship between living close to parks and someone's health</summary>
     
-    Staying active is a crucial part of a healthy lifestyle. According to the American Heart Assocciation, 150 minutes a week of moderate-intensity activity can  "Lower the risk of heart disease, stroke, type 2 diabetes, (and) high blood pressure..." [1]. With this information, we want to know if living closer (having easy access) to a park will affects someone's overall health.
+Staying active is a crucial part of a healthy lifestyle. According to the American Heart Assocciation, 150 minutes a week of moderate-intensity activity can  "Lower the risk of heart disease, stroke, type 2 diabetes, (and) high blood pressure..." [1]. With this information, we want to know if living closer (having easy access) to a park will affects someone's overall health.
     
     
 </details>
