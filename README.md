@@ -129,6 +129,7 @@ Overall we saw that there is a slight correlation between health and proximity t
 Even so, we did see a relationship and more research should be done with more precise locations. It would be interesting to see these health mesaures calculated with respect to park usage in addition to proximity to the parks.
 ![Conclusions Image](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/conclusions.jpg?raw=true) 
 </details>
+
 <details>
 <summary><b>Recommendations</b></summary>
 <br/>
