@@ -111,9 +111,41 @@ Here is a map showing both the health points and park locations. The Health poin
 <details>
 <summary><b>Health Measure by Distance to Parks</b></summary>
 <br/>
-![Distance Scatter Plot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/distance-scatter.jpg?raw=true) 
+Looking at the scatter plot, notice how each measure has a positive, albeit small positive correlation and small R-Squared value, showing significance.
     
+![Distance Scatter Plot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/distance-scatter.jpg?raw=true)
+
+Looking at the bar graph, we notice that the percentage of these health measures are slightly lower in the close category than in the far category, furthering the relationship.
+    
+![Distance Bar Chart](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/distance-bar.jpg?raw=true)
+    
+It's important to note that these correlations are small, and there are many other factors that influence these health measures. While proximity to natural areas alone will not positively impact someone's health, it does provide easier access to free physical activity and fresh air.
 </details>
+<details>
+<summary><b>Conclusions and Further Research</b></summary>
+<br/>
+Overall we saw that there is a slight correlation between health and proximity to natural areas. It is important to note that correlation does not mean causation, as many factors impact someone's health, and being close to a natural area does not imply that the park was used by the locals regularly.
+    
+Even so, we did see a relationship and more research should be done with more precise locations. It would be interesting to see these health mesaures calculated with respect to park usage in addition to proximity to the parks.
+![Conclusions Image](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/conclusions.jpg?raw=true) 
+</details>
+<details>
+<summary><b>Recommendations</b></summary>
+<br/>
+The American Heart Association recommends at least 150 minutes of moderate-intensity activity per week (30 minutes per day, 5 x week), but states that 300 minutes (1 hour per day, 5 x week) will increase the benefits seen. This includes a lower risk of heart disease, stroke, diabetes, and high blood pressure. We saw these same measures in our analysis.
+
+Moderate-Intensity Activities Include:
+- brisk walking
+- dancing
+- gardening
+- tennis
+- biking
+- etc.
+    
+######## Activity recommendations and examples come from the American Heart Association [1]    
+</details>
+
+
 # Link to Dashboard
 [(Back to top)](#table-of-contents)
 
