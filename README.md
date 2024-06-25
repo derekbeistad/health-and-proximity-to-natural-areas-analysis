@@ -108,11 +108,12 @@ Here is a map showing both the health points and park locations. The Health poin
 
 # Conclusions
 [(Back to top)](#table-of-contents)
-    <details>
-    <summary><b>Health Measure by Distance to Parks</b></summary>
-    <br/>
-
-    </details>
+<details>
+<summary><b>Health Measure by Distance to Parks</b></summary>
+<br/>
+![Distance Scatter Plot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/distance-scatter.jpg?raw=true) 
+    
+</details>
 # Link to Dashboard
 [(Back to top)](#table-of-contents)
 
