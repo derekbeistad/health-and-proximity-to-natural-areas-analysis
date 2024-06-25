@@ -112,7 +112,8 @@ Here is a map showing both the health points and park locations. The Health poin
 <summary><b>Health Measure by Distance to Parks</b></summary>
 <br/>
 Looking at the scatter plot, notice how each measure has a positive, albeit small positive correlation and small R-Squared value, showing significance.
-<br/>
+    <br/>
+    <br/>
 ![Distance Scatter Plot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/distance-scatter.jpg?raw=true)
 
 Looking at the bar graph, we notice that the percentage of these health measures are slightly lower in the close category than in the far category, furthering the relationship.
@@ -127,6 +128,7 @@ It's important to note that these correlations are small, and there are many oth
 Overall we saw that there is a slight correlation between health and proximity to natural areas. It is important to note that correlation does not mean causation, as many factors impact someone's health, and being close to a natural area does not imply that the park was used by the locals regularly.
 <br/>
 Even so, we did see a relationship and more research should be done with more precise locations. It would be interesting to see these health mesaures calculated with respect to park usage in addition to proximity to the parks.
+    
 ![Conclusions Image](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/conclusions.jpg?raw=true) 
 </details>
 
