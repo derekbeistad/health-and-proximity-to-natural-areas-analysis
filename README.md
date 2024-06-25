@@ -15,7 +15,7 @@
 
 # Motivation
 [(Back to top)](#table-of-contents)
-### Does one's proximity to the outdoors affect their overall health?
+## Does one's proximity to the outdoors affect their overall health?
 
 <details>
 <summary><b>Investigate the relationship between living close to parks and someone's health</b></summary>
@@ -114,6 +114,7 @@ Here is a map showing both the health points and park locations. The Health poin
 Looking at the scatter plot, notice how each measure has a positive, albeit small positive correlation and small R-Squared value, showing significance.
     <br/>
     <br/>
+    
 ![Distance Scatter Plot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/distance-scatter.jpg?raw=true)
 
 Looking at the bar graph, we notice that the percentage of these health measures are slightly lower in the close category than in the far category, furthering the relationship.
@@ -152,7 +153,7 @@ Moderate-Intensity Activities Include:
 # Link to Dashboard
 [(Back to top)](#table-of-contents)
 
-## https://public.tableau.com/views/health-and-proximity-to-natural-areas/HealthandProximitytoNaturalAreas?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
+## [Dashboard](https://public.tableau.com/views/health-and-proximity-to-natural-areas/HealthandProximitytoNaturalAreas?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
 # Resouorces
 [(Back to top)](#table-of-contents)
