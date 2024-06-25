@@ -5214,7 +5214,7 @@
     <window class='worksheet' name='Distribution by Proximity'>
       <cards>
         <edge name='left'>
-          <strip size='160'>
+          <strip size='100'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
@@ -5280,7 +5280,7 @@
     </window>
     <window class='dashboard' name='references'>
       <viewpoints />
-      <active id='178' />
+      <active id='-1' />
       <simple-id uuid='{98852B3A-4E2C-4B07-B6DC-10DAA2E2EC22}' />
     </window>
     <window class='dashboard' name='Health and Proximity to Natural Areas'>

@@ -8,7 +8,7 @@
 - [Motivation](#motivation)
 - [Technologies](#technologies)
 - [The Data](#the-data)
-- [Hurdles](#hurdles)
+- [Methods](#methods)
 - [Conclusions](#conclusions)
 - [Link to Dashboard](#link-to-dashboard)
 - [Resources](#resources)
@@ -51,16 +51,44 @@ https://www.arcgis.com/home/item.html?id=578968f975774d3fab79fe56c8c90941
 ## Health Data
 ### From CDC - updated 2023 August 25
 https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-Place-Data-202/eav7-hnsx/about_data
-<details>
+    <details>
     <summary><b>Health Data Summary</b></summary>
-<br/>
-- Health data for 429 different locations throughout Tennessee
+    <br/>
+- Health data for 429 different locations throughout Tennessee for the years 2020 and 2021
 - Health data is for adults aged 18 and older.
 ![Health Data Map screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/health-data-map.jpg?raw=true)
-</details>
+    </details>
 
-# Hurdles
+# Methods
 [(Back to top)](#table-of-contents)
+Finding a dataset with health data tied to specific geolocations was difficult. I eventually cam across the PLACES dataset from the CDC. This provides data for 36 different measures of health broken down by location. I then decided to focus the research on 8 of the 36 measures
+
+- Stroke
+- Obesity
+- Asthma
+- High Blood Pressure
+- Coronary Heart Disease
+- Diabetes
+- Depression
+- Lack of Health Insurance
+
+Once I had the datasets loaded and cleaned, I shifted my focus on calculating the minimum distance from each location to the nearest park. After some exploration and research, I landed on a method I developed using nested iterations and reprojecting the geometry into a different Coordinate Reference System (CRS) in order to get accurate distances in meters. 
+
+With the distances calculated, a distribution shows a right skew. More of these health points are located closer to 0 kilometes to a park than located 20+ kilometers away. This could present issues in the calculatiojns to come.
+![Distance Distribution screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/distance-distribution.jpg?raw=true)
+To combat this, I grouped the health data into 3 distinct groups.
+
+Distance Groups:
+- Close (0km to 3.96km)
+- Medium (3.97km - 12.26km)
+- Far (12.26km +)
+
+Now we see an even distribution between close, medium, and far health points.
+![Distance Group Counts screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/distance-group-counts.jpg?raw=true)
+
+Now when we calculate the health values within these groups, we can more accurately compare the reults to each group without the worry of sample size variance between them.
+
+
 
 # Conclusions
 [(Back to top)](#table-of-contents)
