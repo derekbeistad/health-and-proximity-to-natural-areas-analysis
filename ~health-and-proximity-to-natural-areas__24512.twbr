@@ -2056,7 +2056,7 @@
             <format attr='subtitle' class='0' field='[federated.15xc9mg02siu4f1fcppin12lt1a2].[cnt:Data_Value:qk]' scope='rows' value='' />
           </style-rule>
           <style-rule element='cell'>
-            <format attr='width' field='[federated.15xc9mg02siu4f1fcppin12lt1a2].[none:distance_q_category:nk]' value='120' />
+            <format attr='width' field='[federated.15xc9mg02siu4f1fcppin12lt1a2].[none:distance_q_category:nk]' value='276' />
           </style-rule>
           <style-rule element='mark'>
             <encoding attr='color' field='[federated.15xc9mg02siu4f1fcppin12lt1a2].[avg:distance:qk]' min='0.0' palette='tableau-map-temperatur' type='interpolated' />
@@ -2106,6 +2106,8 @@
             <style>
               <style-rule element='mark'>
                 <format attr='mark-color' value='#5dd39e' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
               </style-rule>
               <style-rule element='pane'>
                 <format attr='minwidth' value='-1' />
@@ -5182,7 +5184,7 @@
       </cards>
       <simple-id uuid='{CF956631-387D-421B-ACB3-C9DFD0CA63D2}' />
     </window>
-    <window class='worksheet' maximized='true' name='TN Map'>
+    <window class='worksheet' name='TN Map'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -5278,9 +5280,9 @@
       <active id='-1' />
       <simple-id uuid='{BBA841A3-2F79-400B-9CC7-1DB07CD587F2}' />
     </window>
-    <window class='dashboard' name='references'>
+    <window class='dashboard' maximized='true' name='references'>
       <viewpoints />
-      <active id='-1' />
+      <active id='5' />
       <simple-id uuid='{98852B3A-4E2C-4B07-B6DC-10DAA2E2EC22}' />
     </window>
     <window class='dashboard' name='Health and Proximity to Natural Areas'>
