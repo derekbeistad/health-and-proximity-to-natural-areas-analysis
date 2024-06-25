@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/derekbeistad/health-and-proximity-to-natural-areas-analysis)
 ![GitHub issues](https://img.shields.io/github/issues-raw/derekbeistad/health-and-proximity-to-natural-areas-analysis)
 
-# Table of Contents <a name="table-of-contents"></a>
+# Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Motivation](#motivation)
 - [Technologies](#technologies)
@@ -16,12 +16,12 @@
 # Motivation
 [(Back to top)](#table-of-contents)
 ### Does one's proximity to the outdoors affect their overall health?
-<details>
-    <summary><b>Investigate the relationship between living close to parks and someone's health</b></summary>
-<br/>
+   <details>
+   <summary><b>Investigate the relationship between living close to parks and someone's health</b></summary>
+   <br/>
 Staying active is a crucial part of a healthy lifestyle. According to the American Heart Assocciation, 150 minutes a week of moderate-intensity activity can  "Lower the risk of heart disease, stroke, type 2 diabetes, (and) high blood pressure..." [1]. With this information, we want to know if living closer (having easy access) to a park will affects someone's overall health.
 ![Tableau screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/intro-img.jpg?raw=true)
-</details>
+   </details>
 
 # Technologies
 [(Back to top)](#table-of-contents)
