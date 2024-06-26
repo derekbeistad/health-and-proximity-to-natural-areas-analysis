@@ -86,7 +86,7 @@ Finding a dataset with health data tied to specific geolocations was difficult. 
 
 Once I had the datasets loaded and cleaned, I shifted my focus on calculating the minimum distance from each location to the nearest park. After some exploration and research, I landed on a method I developed using nested iterations and reprojecting the geometry into a different Coordinate Reference System (CRS) in order to get accurate distances in meters. 
 
-With the distances calculated, a distribution shows a right skew. More of these health points are located closer to 0 kilometes to a park than located 20+ kilometers away. This could present issues in the calculatiojns to come.
+With the distances calculated, a distribution shows a right skew. More of these health points are located closer to 0 kilometes to a park than located 20+ kilometers away. This could present issues in the calculations to come.
     
 ![Distance Distribution screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/distance-distribution.jpg?raw=true)
 To combat this, I grouped the health data into 3 distinct groups.
