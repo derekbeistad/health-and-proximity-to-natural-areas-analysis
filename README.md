@@ -88,7 +88,7 @@ Once I had the datasets loaded and cleaned, I shifted my focus on calculating th
 
 With the distances calculated, a distribution shows a right skew. More of these health points are located closer to 0 kilometes to a park than located 20+ kilometers away. This could present issues in the calculations to come.
     
-![Distance Distribution screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/distance-distribution.jpg?raw=true)
+![Distance Distribution screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/distancedistribution.jpg?raw=true)
 To combat this, I grouped the health data into 3 distinct groups.
 
 Distance Groups:
@@ -97,7 +97,7 @@ Distance Groups:
 - Far (12.26km +)
 
 Now we see an even distribution between close, medium, and far health points.
-![Distance Group Counts screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/distance-group-counts.jpg?raw=true)
+![Distance Group Counts screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/distance-group-count.jpg?raw=true)
 
 Now when we calculate the health values within these groups, we can more accurately compare the results to each group without the worry of sample size variance between them.
     
