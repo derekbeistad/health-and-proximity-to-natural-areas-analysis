@@ -48,8 +48,8 @@ https://www.arcgis.com/home/item.html?id=578968f975774d3fab79fe56c8c90941
     <br/>
 - Gathered the park boundaries for parks, gardens, and forests at national, state, county, regional, and local levels
 - 722 natural areas in or bordering Tennessee
-![Parks Map screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/parks-map.jpg?raw=true)
-![Num of Parks by Type screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/parks-by-type.jpg?raw=true)
+![Parks Map screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/parks-map.jpg?raw=true)
+![Num of Parks by Type screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/parks-by-type.jpg?raw=true)
     </details>
 ## Health Data
 ### From CDC - updated 2023 August 25
@@ -59,7 +59,7 @@ https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-Place
     <br/>
 - Health data for 429 different locations throughout Tennessee for the years 2020 and 2021
 - Health data is for adults aged 18 and older.
-![Health Data Map screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/health-data-map.jpg?raw=true)
+![Health Data Map screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/health-data-map.jpg?raw=true)
     </details>
 
 # Methods
@@ -88,7 +88,7 @@ Once I had the datasets loaded and cleaned, I shifted my focus on calculating th
 
 With the distances calculated, a distribution shows a right skew. More of these health points are located closer to 0 kilometes to a park than located 20+ kilometers away. This could present issues in the calculations to come.
     
-![Distance Distribution screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/distance-distribution.jpg?raw=true)
+![Distance Distribution screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/distance-distribution.jpg?raw=true)
 To combat this, I grouped the health data into 3 distinct groups.
 
 Distance Groups:
@@ -97,12 +97,12 @@ Distance Groups:
 - Far (12.26km +)
 
 Now we see an even distribution between close, medium, and far health points.
-![Distance Group Counts screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/distance-group-counts.jpg?raw=true)
+![Distance Group Counts screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/distance-group-counts.jpg?raw=true)
 
 Now when we calculate the health values within these groups, we can more accurately compare the results to each group without the worry of sample size variance between them.
     
 Here is a map showing both the health points and park locations. The Health points are color coded to inducate if they are located "close", "medium", or "far" from the closest park to them.
-![Health and Parks Map](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/health-parks-map.jpg?raw=true)
+![Health and Parks Map](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/health-parks-map.jpg?raw=true)
     
 [Interactive Folium Map](https://derekbeistad.github.io/Health-and-Proximity-to-Parks-Map/tn_parks.html)
     
@@ -117,11 +117,11 @@ Looking at the scatter plot, notice how each measure has a positive, albeit smal
     <br/>
     <br/>
     
-![Distance Scatter Plot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/distance-scatter.jpg?raw=true)
+![Distance Scatter Plot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/distance-scatter.jpg?raw=true)
 
 Looking at the bar graph, we notice that the percentage of these health measures are slightly lower in the close category than in the far category, furthering the relationship.
     
-![Distance Bar Chart](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/distance-bar.jpg?raw=true)
+![Distance Bar Chart](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/distance-bar.jpg?raw=true)
     
 It's important to note that these correlations are small, and there are many other factors that influence these health measures. While proximity to natural areas alone will not positively impact someone's health, it does provide easier access to free physical activity and fresh air.
 </details>
@@ -132,7 +132,7 @@ Overall we saw that there is a slight correlation between health and proximity t
 <br/>
 Even so, we did see a relationship and more research should be done with more precise locations. It would be interesting to see these health mesaures calculated with respect to park usage in addition to proximity to the parks.
     
-![Conclusions Image](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/workingbranch/images/conclusions.jpg?raw=true) 
+![Conclusions Image](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/conclusions.jpg?raw=true) 
 </details>
 
 <details>
