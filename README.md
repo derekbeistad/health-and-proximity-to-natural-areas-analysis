@@ -48,7 +48,7 @@ https://www.arcgis.com/home/item.html?id=578968f975774d3fab79fe56c8c90941
     <br/>
 - Gathered the park boundaries for parks, gardens, and forests at national, state, county, regional, and local levels
 - 722 natural areas in or bordering Tennessee
-![Parks Map screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/parks-map.jpg?raw=true)
+![Parks Map screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/parksmap.jpg?raw=true)
 ![Num of Parks by Type screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/parks-by-type.jpg?raw=true)
     </details>
 ## Health Data
@@ -59,7 +59,7 @@ https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-Place
     <br/>
 - Health data for 429 different locations throughout Tennessee for the years 2020 and 2021
 - Health data is for adults aged 18 and older.
-![Health Data Map screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/health-data-map.jpg?raw=true)
+![Health Data Map screenshot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/healthdata-map.jpg?raw=true)
     </details>
 
 # Methods
@@ -102,7 +102,7 @@ Now we see an even distribution between close, medium, and far health points.
 Now when we calculate the health values within these groups, we can more accurately compare the results to each group without the worry of sample size variance between them.
     
 Here is a map showing both the health points and park locations. The Health points are color coded to inducate if they are located "close", "medium", or "far" from the closest park to them.
-![Health and Parks Map](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/health-parks-map.jpg?raw=true)
+![Health and Parks Map](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/healthparks-map.jpg?raw=true)
     
 [Interactive Folium Map](https://derekbeistad.github.io/Health-and-Proximity-to-Parks-Map/tn_parks.html)
     
