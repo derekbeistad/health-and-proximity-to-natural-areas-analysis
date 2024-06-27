@@ -117,7 +117,7 @@ Looking at the scatter plot, notice how each measure has a positive, albeit smal
     <br/>
     <br/>
     
-![Distance Scatter Plot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/distance-scatter.jpg?raw=true)
+![Distance Scatter Plot](https://github.com/derekbeistad/health-and-proximity-to-natural-areas-analysis/blob/main/images/distancescatter.jpg?raw=true)
 
 Looking at the bar graph, we notice that the percentage of these health measures are slightly lower in the close category than in the far category, furthering the relationship.
     
