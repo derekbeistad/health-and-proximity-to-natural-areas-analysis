@@ -1,33 +1,32 @@
-I'm Derek Beistad and this is an examination of the relationship between people's overall health and their proximity to natural areas (such as parks and other outdoor areas).
+Hi, I'm Derek Beistad and this is a look at the relationship between people's overall health and their proximity to natural areas (such as parks and forests).
 
-According to the American Heart Association: consistent physical activity can lower the risk of heart disease, stroke, type 2 diabetes, and  high blood pressure
+According to the American Heart Association: consistent physical activity can lower the risk of heart disease, stroke, type 2 diabetes, and high blood pressure.
 
-public parks provide a great way to stay active and get outdoors
+Public parks provide a great way to stay active and get outdoors.
 
-the AHA suggests people get at least 150 min per week of moderate-intensity activity
+The AHA suggests people get at least 150 min per week of moderate-intensity activity.
 
-the question driving this exploration is: Does having easy access to the outdoors affect one's overall health?
+The main question driving this exploration is: Does having easy access to the outdoors affect one's overall health?
 
-I'd also like to mention that the bottom picture is from Shelby Bottoms in east Nashville, one of my favorite local parks.
 ******************************************************
-I gathered park data consisting of 722 "parks" in or bordering TN. This includes parks, gardens, and forests from national to local levels.
+I gathered park data consisting of 722 "parks" in or bordering TN. This includes parks, gardens, and forests from national to local levels. This data was gathered from ArcGIS.
 
-Here we can see the number of each type of park in TN. We can also filter our map by these.***
+Here we can see the number of each type of park in TN. We can also filter our map by these.
+If we want to see only the national parks we can see these here. Or you can look at only regional parks. This is also a great way to visualize the size differences between each type of park. There are a lot more of these local parks by number, but they are much smaller in size.
 
 The health data was collected from 2020 and 2021 from the CDC and we focus on 8 different health measures for adults aged 18 and older. they are: Stroke, Obesity, Asthma, Depression, High Blood Pressure, Coronary Heart Disease, Lack of Health Insurance, and Type 2 Diabetes.
 
 this data was collected at 429 locations across TN. For our purposes, we are interested in the closest distance a location is to a park. For simplicity, These locations were grouped into 3 distance categories: close, medium, and far.
 
 We can explore these 429 locations by their proximity to parks. Notice that some locations were located inside parks with a distance of 0, while the furthest was 52 km to the nearest park.
-
-by zooming in to the map we can see better how these were made.
  
 With this understanding of the data, we can look into more detail on the datasets.
 ************************************************************
 by looking at the distribution of the locations' distances to their nearest park, we see that they are skewed right, for example, a lot more of the locations are closer than 5km to a park than further than 20km away.
 
-To make sure this does not skew our calculations down the line, we will use quantiles to make 3 even groups: close, medium, and far. We can see the distance range for each group here. Note the slight variance in group size due to rounding the distance cut off values.
-*************************************************************
+To make sure this does not skew our calculations down the line, we will use quantiles to make 3 even groups: close, medium, and far. We can see the distance range for each group here.
+
+We will use these groups to help us examine the health measures in relation to their proximity. *************************************************************
 We can now look at how each of the health measures change with distance to the nearest park.
 
 This scatter plot shows the percent of the selected health measure in relation to the distance from a park.
@@ -42,8 +41,8 @@ While proximity to natural areas alone will not positively impact someone's heal
 *************************************************************
 Overall we saw that there is a slight correlation between health and proximity to natural areas. It is important to note that correlation does not mean causation, many factors impact someone's health, and being close to a natural area does not imply that the park was used by the locals regularly.
 
-Even so, we did see a relationship there. more research should be done with more precise locations. It would be interesting to see these health mesaures calculated with respect to park usage in addition to proximity to the parks.
+Even so, we did see a relationship there. more research should be done with more precise locations. It would be interesting to see these health measures calculated with respect to park usage in addition to proximity to the parks.
 
-The American Heart Association recommends at least 150 minutes of moderate-intensity activity per week (30 minutes per day), but states that 300 minutes (1 hour per day) will increase the benefits seen. this includes a lower risk of heart disease, stroke, diabetes, and high blood pressure. We saw these same measures in our data.
+The American Heart Association recommends at least 150 minutes of moderate-intensity activity per week (30 minutes per day), but states that 300 minutes (1 hour per day) will increase the benefits seen. this includes a lower risk of heart disease, stroke, diabetes, and high blood pressure. We saw these same measures in our analysis.
 
-moderate - intensity activities include among many: brisk walking, dancing, gardening, tennis, biking
+Examples of moderate - intensity activities include among many: brisk walking, dancing, gardening, tennis, biking
