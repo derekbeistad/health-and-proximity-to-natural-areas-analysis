@@ -156,7 +156,6 @@ Moderate-Intensity Activities Include:
 [(Back to top)](#table-of-contents)
 
 # [Dashboard](https://public.tableau.com/views/health-and-proximity-to-natural-areas/HealthandProximitytoNaturalAreas?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
-## [Interactive Map](https://derekbeistad.github.io/Health-and-Proximity-to-Parks-Map/tn_parks.html)
 
 # Resouorces
 [(Back to top)](#table-of-contents)

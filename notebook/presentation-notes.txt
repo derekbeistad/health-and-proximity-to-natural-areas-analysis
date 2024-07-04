@@ -26,14 +26,15 @@ by looking at the distribution of the locations' distances to their nearest park
 
 To make sure this does not skew our calculations down the line, we will use quantiles to make 3 even groups: close, medium, and far. We can see the distance range for each group here.
 
-We will use these groups to help us examine the health measures in relation to their proximity. *************************************************************
+We will use these groups to help us examine the health measures in relation to their proximity to parks.
+*************************************************************
 We can now look at how each of the health measures change with distance to the nearest park.
 
 This scatter plot shows the percent of the selected health measure in relation to the distance from a park.
 
-notice how each measure has a positive, albeit small correlation. The small R-Squared value signifies significance in the relationship.
+If we filter through these, we notice how each measure has a similar positive, albeit small correlation between the distance and the health measure. I'd also like to point out that these have a relatively small R-Squared value which helps signify significance in the relationship.
 
-looking down at our bar graph, we also see that the percentage of these health measures are slightly lower in the close category than in the far category, furthering the relationship.
+looking down at our bar graph, we also see that the percentage of these health measures are slightly lower in the close category than in the far category.
 
 these correlations are small, and there are many other factors that influence these health measures.
 
